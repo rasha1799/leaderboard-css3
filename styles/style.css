@@ -160,7 +160,16 @@ border-radius: 14.6913px;
     
     
 }
+@media only screen and (max-width:768px) {
+    .players, .blogs{
+        grid-template-columns: repeat(2, 1fr);
+        
+   }
+   .courses{
+    grid-template-columns: repeat(1,1fr);
+   }
 
+}
 
     
     
